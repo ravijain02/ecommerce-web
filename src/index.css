@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a{
+    color: #000;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  .payment-process {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .back-arrow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .progress-circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .circle-container {
+    text-align: center;
+    margin-top: 14px;
+    font-weight: 500;
+    color: #000;
+  }
+  
+  .circle-container .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .circle-container p.circle-text {
+    color: #000;
+    padding-top: 4px;
+  }
+  
+  .secure-icon {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: green;
+  }
+  
+  .secure-icon svg {
+    margin-right: 8px;
+  }

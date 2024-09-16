@@ -1,0 +1,119 @@
+.address-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .address-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .address-container p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .address-cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .address-card {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .address-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .address-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  ._btn {
+    background-color: pink; 
+    color: black; 
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  ._btn:hover {
+    background-color: #ffb6c1;
+  }
+  
+  .new-address-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #f1f1f1;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .add-btn {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .new-address-card p {
+    font-size: 16px;
+    color: #007bff;
+    margin: 0;
+  }
+  
+  .new-address-card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .address-container {
+      padding: 15px;
+    }
+  
+    .address-cards-wrapper {
+      flex-direction: column;
+    }
+  
+    .btn-container {
+      flex-direction: column;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
